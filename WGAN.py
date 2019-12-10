@@ -19,9 +19,9 @@ import torch.functional as F
 
 if __name__ == '__main__':
 
-    max_epochs = 10  # Number of training epochs
+    max_epochs = 5000  # Number of training epochs
     lr = 0.0002  # Learning rate for optimizers
-    batch_size = 128  # Batch size during training
+    batch_size = 64  # Batch size during training
     image_size = 128  # All images will be resized to this size using a transformer.
     clip = 0.01
     n_critic = 5
@@ -30,7 +30,9 @@ if __name__ == '__main__':
     ckpt_path = './WGAN_Samples/checkpoint_iteration_2000.tar'
 
     # Root directory for dataset
-    data_path = "/datasets/celeba"
+    data_path = "./datasets/anime"
+    # data_path = "/datasets/celeba"
+
     samples_path = './WGAN_Samples'
     os.makedirs(samples_path, exist_ok=True)
 

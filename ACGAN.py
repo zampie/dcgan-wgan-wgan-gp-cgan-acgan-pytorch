@@ -27,7 +27,7 @@ if __name__ == '__main__':
     ckpt_path = './ACGAN_Samples/checkpoint_iteration_5000.tar'
 
     # Root directory for dataset
-    data_path = '/datasets/celeba'
+    data_path = './datasets/celeba_m'
     samples_path = './ACGAN_Samples'
     os.makedirs(samples_path, exist_ok=True)
 

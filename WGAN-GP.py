@@ -30,8 +30,8 @@ if __name__ == '__main__':
     n_critic = 5
 
     # Root directory for dataset
-    # data_path = "/datasets/Anime"
-    data_path = "/datasets/celeba"
+    data_path = "./datasets/anime"
+    # data_path = "./datasets/celeba"
 
     samples_path = './WGAN-GP_Samples'
     os.makedirs(samples_path, exist_ok=True)

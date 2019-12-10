@@ -16,7 +16,7 @@ import torch.functional as F
 
 if __name__ == '__main__':
 
-    max_epochs = 1000  # Number of training epochs
+    max_epochs = 5000  # Number of training epochs
     lr = 0.0002  # Learning rate for optimizers
     batch_size = 64  # Batch size during training
     image_size = 128  # All images will be resized to this size using a transformer.
@@ -25,8 +25,8 @@ if __name__ == '__main__':
     ckpt_path = './DCGAN_Samples/checkpoint_iteration_150.tar'
 
     # Root directory for dataset
-    data_path = '/datasets/celeba'
-    samples_path = './DCGAN_Samples'
+    data_path = './datasets/anime'
+    samples_path = './DCGAN_Samples_1'
     os.makedirs(samples_path, exist_ok=True)
 
     latent_dim = 100  # Size of z latent vector (i.e. size of generator input)
