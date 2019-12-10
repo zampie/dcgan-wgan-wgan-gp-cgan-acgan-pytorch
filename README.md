@@ -28,5 +28,5 @@ Edit files to change parameters.
 
 
 About the dataset:  
-Original dataset. Illustrations are from pixiv. Face detect is:https://github.com/nagadomi/lbpcascade_animeface
-Dataset:https://drive.google.com/open?id=1p_dxYo_5pVlhnQZs8sXOcsQpwatveLiZ
+Original dataset. Illustrations are from pixiv. Face detect is: https://github.com/nagadomi/lbpcascade_animeface
+Dataset: https://drive.google.com/open?id=1p_dxYo_5pVlhnQZs8sXOcsQpwatveLiZ
