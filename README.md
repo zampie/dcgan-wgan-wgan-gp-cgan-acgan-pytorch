@@ -11,13 +11,13 @@ Pytorch: 1.0 or newer
 
 Result:
 
-DCGAN
+DCGAN:
 ![image](https://github.com/zampie/dcgan-wgan-wgan-gp-cgan-acgan-pytorch/blob/master/examples/dcgan_20400.jpg) 
 
-WGAN
+WGAN:
 ![image](https://github.com/zampie/dcgan-wgan-wgan-gp-cgan-acgan-pytorch/blob/master/examples/wgan_74999.jpg) 
 
-WGAN-GP
+WGAN-GP:
 ![image](https://github.com/zampie/dcgan-wgan-wgan-gp-cgan-acgan-pytorch/blob/master/examples/wgan-gp_74999.jpg) 
 
 
