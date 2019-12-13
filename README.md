@@ -1,9 +1,5 @@
 # dcgan-wgan-wgan-gp-cgan-acgan-pytorch
 
-# Animation-standing-segmentation
-
-# unet_colorization_pytorch
-
 GAN collection.
 
 For runing this program, you need:  
